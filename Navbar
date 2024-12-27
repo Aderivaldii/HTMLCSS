@@ -1,0 +1,28 @@
+echo "# HTMLCSS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Aderivaldii/HTMLCSS.git
+git push -u origin main
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naviagtion Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <span></span>
+    </nav> 
+</body>
+</html>
